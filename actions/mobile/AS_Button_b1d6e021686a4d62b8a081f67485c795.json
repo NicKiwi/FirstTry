@@ -1,0 +1,29 @@
+{
+    "AS_Button_b1d6e021686a4d62b8a081f67485c795": {
+        "id": "AS_Button_b1d6e021686a4d62b8a081f67485c795",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "StartUpScreen",
+            "type": "forms",
+            "platform": "",
+            "KUID": "je9b683c49674cd9804ce949c0fbfe5a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___h4cfb7d4d0b64ec79b9a0f641df525ee",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "HomeScreen",
+            "formKUID": "eb8c5ef4ce3b4b869e7a431716ef238b",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

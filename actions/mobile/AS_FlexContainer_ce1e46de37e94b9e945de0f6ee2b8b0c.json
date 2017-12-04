@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_ce1e46de37e94b9e945de0f6ee2b8b0c": {
+        "id": "AS_FlexContainer_ce1e46de37e94b9e945de0f6ee2b8b0c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "HomeScreen",
+            "type": "forms",
+            "platform": "",
+            "KUID": "eb8c5ef4ce3b4b869e7a431716ef238b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___b76386b5a88d4797ac1528c7865670f3",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "Settings",
+            "formKUID": "f29bfc941db446289f68cd498d96251b",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

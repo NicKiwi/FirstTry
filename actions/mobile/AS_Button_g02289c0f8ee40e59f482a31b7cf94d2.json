@@ -1,0 +1,24 @@
+{
+    "AS_Button_g02289c0f8ee40e59f482a31b7cf94d2": {
+        "id": "AS_Button_g02289c0f8ee40e59f482a31b7cf94d2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "StartUpScreen",
+            "type": "forms",
+            "platform": "",
+            "KUID": "je9b683c49674cd9804ce949c0fbfe5a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e73bd25b36e24418aeefdba170355d5e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if (this.view.MainLabel.text == \"Yeah!\") {\n\tthis.view.MainLabel.text = \"Noo!\";\n} else {\n  \tthis.view.MainLabel.text = \"Yeah!\";\n}",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

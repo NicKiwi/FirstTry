@@ -1,0 +1,18 @@
+{
+    "AS_Form_c9d99c3dbfe34d5fa8064504ee25b7a5": {
+        "id": "AS_Form_c9d99c3dbfe34d5fa8064504ee25b7a5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "StartUpScreen",
+            "type": "forms",
+            "platform": "",
+            "KUID": "je9b683c49674cd9804ce949c0fbfe5a"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "AS_FlexContainer_g591afef8bbd43e08bb6d642a3f6afac": {
+        "id": "AS_FlexContainer_g591afef8bbd43e08bb6d642a3f6afac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "StartUpScreen",
+            "type": "forms",
+            "platform": "",
+            "KUID": "je9b683c49674cd9804ce949c0fbfe5a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___g77017750610447698f59816621f475f",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "HomeScreen",
+            "formKUID": "eb8c5ef4ce3b4b869e7a431716ef238b",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY_Untitled___f14cbe05bcf243f08a888324d8332d90",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "itemId": "StartUpScreen",
+            "propertyName": "isVisible",
+            "propertyValue": "true",
+            "itemKUID": "je9b683c49674cd9804ce949c0fbfe5a",
+            "widgetKUID": "gd3ef142c6f44e0682235f289156567e",
+            "isSkinProperty": false,
+            "wType": "FlexContainer",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

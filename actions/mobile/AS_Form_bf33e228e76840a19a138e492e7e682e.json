@@ -1,0 +1,74 @@
+{
+    "AS_Form_bf33e228e76840a19a138e492e7e682e": {
+        "id": "AS_Form_bf33e228e76840a19a138e492e7e682e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "StartUpScreen",
+            "type": "forms",
+            "platform": "",
+            "KUID": "je9b683c49674cd9804ce949c0fbfe5a"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "MOVE_ACTION____b29d48db146e424686602eefb425b297",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "StartUpScreen",
+            "widgetId": "DareToDoContainer",
+            "itemKUID": "je9b683c49674cd9804ce949c0fbfe5a",
+            "widgetKUID": "b63edc3058a24cff8e849b892e3a29cd",
+            "wType": "FlexContainer",
+            "animationObject": {
+                "centerY": "150%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "rectified": true
+            },
+            "config": {
+                "delay": "1500",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "animationId": "MOVE_ACTION____b29d48db146e424686602eefb425b297",
+            "displayAnimationId": "MOVE_ACTION____b29d48db146e424686602eefb425b297",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null,
+            "widgetPath": "this.view.DareToDoContainer"
+        }, {
+            "id": "IF_CONDITION__c652c3eb58e94fb8b80b1522ab008ce0",
+            "type": "IF_CONDITION",
+            "conditions": [{
+                "leftValueType": "widgetpos",
+                "leftValue": "StartUpScreen.DareToDoContainer.centerY",
+                "operator": "===",
+                "rightValueType": "value",
+                "rightValue": "150",
+                "leftItemKUID": "je9b683c49674cd9804ce949c0fbfe5a",
+                "leftWidgetKUID": "b63edc3058a24cff8e849b892e3a29cd"
+            }],
+            "parentId": "MOVE_ACTION____b29d48db146e424686602eefb425b297",
+            "callbackType": "Callback",
+            "criteria": "all"
+        }, {
+            "id": "NAVIGATE_TO_FORM___efd04aeae57a424e9411217c1d7be81b",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "HomeScreen",
+            "formKUID": "eb8c5ef4ce3b4b869e7a431716ef238b",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "MOVE_ACTION____b29d48db146e424686602eefb425b297",
+            "callbackType": "Callback",
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}
